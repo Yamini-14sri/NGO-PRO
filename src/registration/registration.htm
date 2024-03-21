@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>  
+<body>
+    <h3>Registration Form</h3>
+    <form>
+        <div>
+            <label for="firstname">First Name:</label>
+            <input name="firstname" type="text" required />
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input name="lastname" type="text" required />
+        </div>
+        <div>
+            <label for="email">Email address:</label>
+            <input name="useremail" type="email" required />
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <div class="gender">
+                <label for="male"><input required type="radio" name="gender" value="male">Male</label>
+                <label for="female"><input required type="radio" name="gender" value="female">Female</label>
+                <label for="other"><input required type="radio" name="gender" value="other">Other</label>
+            </div>
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <textarea required name="Address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="Occupation">Occupation:</label>
+            <input name="Occupationx" type="text" required />
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="japan">Japan</option>
+                <option value="russia">Russia</option>
+            </select>
+        </div>
+        <div class="is-robot">
+            <label for="isRobot"><input type="checkbox" required name="isRobot">I am not a robot</label>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,265 @@
+
+          /* Reset some default styles for better consistency */
+          body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+           background-color: #f2f2f2;
+           text-align: center;
+            
+        }
+        
+        header {
+           background-color: #082e07;
+            color: #1a1616;
+            padding: 20px 0;
+           text-align: left;
+        }
+
+        header h1 {
+            font-size: 25px;
+            text-align:left;
+        
+        }
+        
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .mission-section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission-section h2 {
+            font-size: 24px;
+        }
+
+        .mission-section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .donate-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            max-width: 1200px;
+        }
+
+        .donate-button:hover {
+            background-color: #00b336;
+        }
+        header {
+            background-color: #00e61f;
+             color: #1a1616;
+             padding: 20px 0;
+            text-align: left;
+         }
+       
+         header h1 {
+             font-size: 25px;
+             text-align:left;
+         
+         }
+         .navbar a {
+             float: right;
+             font-size: 20px;
+             color: white;
+             padding: 14px 20px;
+         }
+       
+         .navbar a:hover {
+             background-color: #20bc20;
+       }
+       
+       .form-title {
+       text-align: left;    
+       padding: 20px;
+       font-size: 50px;
+       color: #333;
+       }
+       
+       .form-container {
+       max-width: 600px;
+       margin: 0 auto;
+       padding: 20px;
+       }
+       
+       .form-element {
+       display: block;
+       margin-bottom: 20px;
+       }
+       
+       .submit-button {
+       background-color: #4285f4;
+       color: white;
+       padding: 10px 20px;
+       border: none;
+       cursor: pointer;
+       }
+       
+       .submit-button:hover {
+       background-color: #357ae8;
+       }
+       .button {
+        background-color: #4CAF50; /* Green */
+        border: 5;
+        color: rgb(226, 40, 40);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 10%;
+      }
+      .button2 {background-color: #008CBA;} /* Blue */
+      .button3 {background-color: #f44336;} /* Red */ 
+      .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+      .button5 {background-color: #555555;} /* Black */
+      style>
+      form {
+        border: 1px solid #ccc;
+        width: 400px;
+        padding: 20px;
+        border-radius: 4px;
+        margin: 0 auto;
+      }
+    
+      h1 {
+        text-align: center;
+      }
+    
+      label {
+        display: block;
+        font-size: 80%;
+        color: #444;
+        margin-bottom: 4px;
+      }
+    
+      input {
+        width: 100%;
+        padding: 4px;
+        font-size: 125%;
+      }
+    
+      div + div {
+        margin-top: 20px;
+      }
+    
+      select {
+        padding: 4px;
+        font-size: 100%;
+        width: 100%;
+      }
+    
+      button {
+        background-color: rgb(43, 55, 226);
+        color: #ece1e8;
+        padding: 16px 16px;
+        font-size: 125%;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+      }
+    
+      .is-robot {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 30px 10px;
+        background: #eee;
+      }
+    
+      .is-robot input {
+        height: 20px;
+        width: 20px;
+      }
+    
+      .is-robot label {
+        display: inline;
+        font-size: 100%;
+      }
+    
+      .gender {
+        display: flex;
+        margin-right: 60%;
+      }
+    
+      textarea {
+        width: 100%;
+        height: 15%;
+      }
+      .button {
+        background-color: #4caf4c; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button {background-color: #0d89b3;} /* Blue */
+      .button {background-color: #f44336;} /* Red */ 
+      .button {background-color: #e7e7e7; color: black;} /* Gray */ 
+      .button {background-color: #555555;} /* Black */
+      .homepage {
+        text-align: center; /* Center the image horizontally */
+    }
+    
+    .homepage img {
+        max-width: 900%; /* Make sure the image doesn't exceed its container */
+        height: auto; /* Maintain the aspect ratio of the image */
+    }
+    .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Style for the slideshow images */
+    .mySlides {
+        display: none;
+        width: 100%;
+    }
+
+    /* Style for navigation dots */
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Style for active dot */
+    .active {
+        background-color: #333;
+    }
+    .container {
+        display: flex;
+    }
+    .activity {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
