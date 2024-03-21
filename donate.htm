@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Help Children</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Donate to Help Children</h1>
+    </header>
+
+    <section class="donation-form">
+        <h2>Make a Donation</h2>
+        <form action="process_donation.php" method="post">
+           <div><label for="name">Name:</label></div>
+            <input type="text" id="name" name="name" required>
+
+            <div><label for="email">Email:</label></div>
+            <input type="email" id="email" name="email" required></div>
+
+            <div><label for="amount">Donation Amount:</label></div>
+            <input type="number" id="amount" name="amount" min="1" required>
+
+           <div><label for="message">Message (optional):</label></div>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+           <div><button type="submit">Donate Now</button></div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023  NGO </p>
+    </footer>
+</body>
+</html>
